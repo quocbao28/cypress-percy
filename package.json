@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "percy:cypress": "percy exec -- cypress run"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.0.0-beta.48",
+    "@percy/cypress": "^3.1.0",
+    "cypress": "^7.2.0"
+  }
+}
